@@ -36,3 +36,13 @@ nav {
   display: inline-flex;
   justify-content: space-evenly;
 }
+.hero-section {
+  margin-top: 61px;
+  margin-left: 21px;
+  display: flex;
+  color: #fff;
+}
+.dishname {
+  text-align: right;
+  margin-right: 200px;
+}
