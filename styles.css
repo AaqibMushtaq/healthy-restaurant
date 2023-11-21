@@ -22,7 +22,6 @@ nav {
   align-items: center;
   gap: 48px;
   display: flex;
-  display: inline-flex;
   justify-content: space-evenly;
   padding-left: 417px;
 }
@@ -38,8 +37,7 @@ header {
   padding: 9px 24px;
   font-size: 16px;
   font-weight: 400;
-  width: 112px;
-  height: 41px;
+  padding: 9px 24px;
 }
 .hero-section {
   margin-top: 61px;
@@ -71,8 +69,8 @@ caption {
   background-color: #f4511f;
   color: #fff;
   border-radius: 8px;
-  width: 141px;
-  height: 57px;
+  padding: 18px 28px;
   font-weight: 400;
   margin-top: 30px;
+  font-size: 16px;
 }
