@@ -42,18 +42,19 @@ header {
 }
 .hero-section {
   margin-top: 61px;
-  margin-left: 21px;
+
   display: flex;
   color: #fff;
-  gap: 78px;
+  justify-content: space-between;
 }
 .dishname {
   text-align: right;
-  margin-right: 200px;
   margin-top: 12px;
+  width: 40%;
 }
 .right {
   margin-top: 32px;
+  flex-basis: 50%;
 }
 caption {
   font-size: 20px;
@@ -62,9 +63,11 @@ caption {
 .text p {
   font-size: 64px;
   margin: 0;
+  line-height: 70px;
 }
 .discription {
   margin-top: 34px;
+  padding: 2%;
 }
 .order-button {
   background-color: #f4511f;
@@ -74,4 +77,10 @@ caption {
   font-weight: 400;
   margin-top: 30px;
   font-size: 16px;
+}
+.left {
+  flex-basis: 50%;
+}
+.left img {
+  width: 75%;
 }
