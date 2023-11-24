@@ -13,7 +13,7 @@ body {
   color: #fff;
   justify-self: start;
   align-items: center;
-  width: 24px;
+  width: 75px;
   height: 24px;
 }
 nav {
@@ -83,4 +83,96 @@ caption {
 }
 .left img {
   width: 75%;
+}
+.service-text {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 211px;
+  padding-bottom: 65px;
+}
+.services-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 110px;
+}
+.customer-service-container {
+  display: flex;
+  padding-top: 65px;
+  padding-bottom: 110px;
+  flex-direction: column;
+}
+.service-name-hours {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  width: 127px;
+  height: 29px;
+  padding: 20px 22px 4px 22px;
+}
+.service-hours-description {
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 171px;
+  height: 48px;
+}
+.fast-delivery-container {
+  display: flex;
+  flex-direction: column;
+  padding: 91px 125px 110px 95px;
+}
+.service-name-fast {
+  width: 127px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 26px 4px 69px;
+}
+.fast-description {
+  width: 175px;
+  height: 48px;
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 42px;
+}
+.food-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 71px;
+  padding-bottom: 110px;
+}
+.service-name-food {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  width: 133px;
+  padding: 0 19px 4px 50px;
+}
+.food-description {
+  width: 171px;
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 23px 0 30px;
 }
