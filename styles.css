@@ -212,3 +212,117 @@ caption {
 .right-section {
   display: flex;
 }
+/* premium-menu */
+.Neapolitan-pizza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Neapolitan-pizza img {
+  width: 109px;
+  height: 113px;
+}
+.premium-text {
+  height: 54px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* food-section-container */
+.container {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pizza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-name {
+  color: #fff;
+  width: 166px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.food-type {
+  color: #dad8d7;
+  width: 85px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 51px;
+  padding-right: 53px;
+}
+.rate {
+  width: 46px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 11px 60px 0 60px;
+  display: flex;
+  flex-direction: row;
+}
+.cart-img img {
+  border-radius: 4px 4px 12px 4px;
+  background: #f4511f;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  padding: 8px 8px 4px 4px;
+}
+.cart-img {
+  padding: 4px 0 16px 89px;
+}
+/* discount */
+.discount {
+  display: flex;
+  padding-top: 224px;
+  justify-content: center;
+}
+.left-sec {
+  padding-right: 116px;
+}
+.right-sec {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.right-sec p {
+  margin: 0;
+  padding-top: 69px;
+}
+.goto {
+  padding: 30px 35px 35px 0;
+}
+.goto input {
+  color: #fff;
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #f4511f;
+  padding: 17px 28px 16px 28px;
+}
