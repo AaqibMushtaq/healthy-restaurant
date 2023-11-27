@@ -13,7 +13,7 @@ body {
   color: #fff;
   justify-self: start;
   align-items: center;
-  width: 24px;
+  width: 75px;
   height: 24px;
 }
 nav {
@@ -35,10 +35,9 @@ header {
   background-color: #f4511f;
   color: #fff;
   border-radius: 24px;
-  padding: 9px 24px;
   font-size: 16px;
   font-weight: 400;
-  padding: 9px 24px;
+  padding: 9px 24px 8px 24px;
 }
 .hero-section {
   margin-top: 61px;
@@ -83,4 +82,133 @@ caption {
 }
 .left img {
   width: 75%;
+}
+.service-text {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 211px;
+  padding-bottom: 65px;
+}
+.services-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 110px;
+}
+.customer-service-container {
+  display: flex;
+  padding-top: 65px;
+  flex-direction: column;
+}
+.service-name-hours {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  width: 127px;
+  height: 29px;
+  padding: 20px 22px 4px 22px;
+}
+.service-hours-description {
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 171px;
+  height: 48px;
+}
+.fast-delivery-container {
+  display: flex;
+  flex-direction: column;
+  padding: 91px 125px 0px 95px;
+}
+.service-name-fast {
+  width: 127px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 26px 4px 69px;
+}
+.fast-description {
+  width: 175px;
+  height: 48px;
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 42px;
+}
+.food-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 71px;
+}
+.service-name-food {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  width: 133px;
+  padding: 0 19px 4px 50px;
+}
+.food-description {
+  width: 171px;
+  color: #dad8d7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 23px 0 30px;
+}
+/* about-section */
+.About-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 159px 0;
+}
+.about-text {
+  width: 163px;
+  height: 54px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 59px 232px 48px 0;
+}
+.about-description {
+  color: #dad8d7;
+  width: 395px;
+  height: 96px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0px 153px 35px 0;
+}
+.about-button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #f4511f;
+  padding: 17px 28px 16px 28px;
+}
+.right-section {
+  display: flex;
 }
