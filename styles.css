@@ -41,7 +41,6 @@ header {
 }
 .hero-section {
   margin-top: 61px;
-
   display: flex;
   color: #fff;
   justify-content: space-between;
@@ -55,7 +54,7 @@ header {
   margin-top: 32px;
   flex-basis: 50%;
 }
-caption {
+.caption {
   font-size: 20px;
   font-weight: 400;
 }
@@ -447,4 +446,94 @@ caption {
   text-align: center;
   font-size: 12px;
   padding-bottom: 67px;
+}
+@media (min-width: 460px) and (max-width: 1280px) {
+  /* for tablet */
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 26px;
+  }
+  /* hero-section */
+  nav {
+    padding-left: 112px;
+  }
+  .hero-section .right {
+    margin-top: 35px;
+  }
+  .hero-section {
+    gap: 80px;
+  }
+  .caption {
+    font-size: 16px;
+  }
+
+  .left img {
+    width: 40vw;
+  }
+  .dishname {
+    font-size: 12px;
+    width: 18vw;
+    margin-left: 30px;
+  }
+  .right .text p {
+    line-height: 50px;
+    font-size: 43px;
+  }
+  .right .description {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  /* our-servies */
+  .services-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .services-section img {
+    width: 17vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-service-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .fast-delivery-container {
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .food-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .food-container {
+    padding-top: 97px;
+  }
+  /* about-container */
+  .About-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .left-section {
+    width: 54vw;
+    margin-left: 3vw;
+  }
+  .right-section img {
+    width: 40vw;
+    margin-right: 2vw;
+  }
+  /* preimium-section */
+  .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 21px;
+    margin-right: 68px;
+  }
+  .arrivals-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .arrivals-container img {
+    height: 100%;
+  }
 }
