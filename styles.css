@@ -6,7 +6,7 @@ input {
 }
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0px 160px;
+  margin: 0px 8%;
 }
 .logo {
   display: flex;
@@ -24,12 +24,12 @@ nav {
   gap: 48px;
   display: flex;
   justify-content: space-evenly;
-  padding-left: 417px;
 }
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0 20px 0;
+  align-items: center;
+  padding: 20px 0;
 }
 .support-button {
   background-color: #f4511f;
@@ -63,7 +63,7 @@ header {
   margin: 0;
   line-height: 70px;
 }
-.discription {
+.description {
   margin-top: 34px;
   padding: 2%;
 }
@@ -167,26 +167,25 @@ header {
   padding: 0 23px 0 30px;
 }
 /* about-section */
-.About-container {
+.about-container {
   display: flex;
   justify-content: space-around;
+  gap: 153px;
   padding: 0 0 159px 0;
 }
 .about-text {
-  width: 163px;
   color: #fff;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  padding: 59px 232px 48px 0;
+  padding: 60px 0 48px 0;
 }
 .about-description {
   color: #dad8d7;
-  width: 395px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  padding: 0px 153px 35px 0;
+  padding-bottom: 35px;
 }
 .about-button {
   color: #fff;
@@ -401,7 +400,6 @@ header {
   color: #dad8d7;
   text-align: center;
   font-size: 16px;
-  width: 366px;
 }
 .subscribe-button {
   font-size: 16px;
@@ -447,11 +445,11 @@ header {
   font-size: 12px;
   padding-bottom: 67px;
 }
+/* for tablet */
 @media (min-width: 460px) and (max-width: 1280px) {
-  /* for tablet */
   body {
     font-family: "Poppins", sans-serif;
-    margin: 0 26px;
+    margin: 0 6%;
   }
   /* hero-section */
   nav {
@@ -511,17 +509,19 @@ header {
     padding-top: 97px;
   }
   /* about-container */
-  .About-container {
-    display: flex;
-    justify-content: space-around;
+  .about-container {
+    gap: 80px;
+    padding: 0 20px 60px 20px;
   }
   .left-section {
-    width: 54vw;
-    margin-left: 3vw;
+    flex-basis: 50%;
+  }
+
+  .right-section {
+    flex-basis: 50%;
   }
   .right-section img {
-    width: 40vw;
-    margin-right: 2vw;
+    width: 70%;
   }
   /* preimium-section */
   .container {
@@ -535,5 +535,53 @@ header {
   }
   .arrivals-container img {
     height: 100%;
+  }
+}
+/* Responsive for phones */
+@media (min-width: 0px) and (max-width: 460px) {
+  body {
+    margin: 0 5%;
+  }
+  nav {
+    gap: 8px;
+    font-size: 12px;
+  }
+  .support-button {
+    font-size: 12px;
+    padding: 4px 16px;
+    margin-left: 8px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .left img {
+    width: 100%;
+  }
+  .service-text {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-section {
+    display: none;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .discount {
+    flex-direction: column;
+  }
+  .arrivals-container {
+    flex-direction: column;
+  }
+  .news-description {
+    font-size: 14px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
   }
 }
